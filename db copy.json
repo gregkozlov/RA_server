@@ -1,0 +1,25 @@
+{
+  "trucks": [
+    { "id": 1, "truckName": "Campbell" },
+    { "id": 2, "truckName": "Parks" },
+    { "id": 3, "truckName": "Briggs" },
+    { "id": 4, "truckName": "Carr" },
+    { "id": 5, "truckName": "Henderson" },
+    { "id": 6, "truckName": "Hall" },
+    { "id": 7, "truckName": "Barnes" },
+    { "id": 8, "truckName": "Dennis" },
+    { "id": 9, "truckName": "Bowen" }
+  ],
+
+  "routes": [
+    { "id": 1, "routeName": 52 },
+    { "id": 2, "routeName": 20 },
+    { "id": 3, "routeName": 15 },
+    { "id": 4, "routeName": 41 },
+    { "id": 5, "routeName": 17 },
+    { "id": 6, "routeName": 35 },
+    { "id": 7, "routeName": 85 },
+    { "id": 8, "routeName": 18 },
+    { "id": 9, "routeName": 93 }
+  ]
+}
