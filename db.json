@@ -513,25 +513,229 @@
       "required": ["tenantId", "visualizationMethod"]
     }
   ],
-  "fuelConsumptionChartData": {
-    "dates": [
-      "1 Jan",
-      "3 Jan",
-      "5 Jan",
-      "7 Jan",
-      "9 Jan",
-      "11 Jan",
-      "13 Jan",
-      "15 Jan",
-      "17 Jan",
-      "19 Jan",
-      "21 Jan",
-      "23 Jan",
-      "25 Jan",
-      "27 Jan",
-      "29 Jan",
-      "31 Jan"
-    ],
-    "fuelConsumption": [26, 23, 27, 22, 31, 19, 33, 24, 28, 30, 32, 29, 34, 21, 30, 22]
-  }
+  "fuelConsumptionChartData": [
+    {
+      "id": "fuel consumption",
+      "color": "hsl(164, 70%, 50%)",
+      "data": [
+        {
+          "x": "1 Jan",
+          "y": 22
+        },
+        {
+          "x": "3 Jan",
+          "y": 28
+        },
+        {
+          "x": "5 Jan",
+          "y": 32
+        },
+        {
+          "x": "7 Jan",
+          "y": 29
+        },
+        {
+          "x": "9 Jan",
+          "y": 18
+        },
+        {
+          "x": "11 Jan",
+          "y": 35
+        },
+        {
+          "x": "13 Jan",
+          "y": 33
+        },
+        {
+          "x": "15 Jan",
+          "y": 25
+        }
+      ]
+    }
+  ],
+  "treemapChartData": {
+    "name": "treemap",
+    "color": "hsl(83, 70%, 50%)",
+    "children": [
+      {
+        "name": "stack",
+        "color": "hsl(119, 70%, 50%)",
+        "children": [
+          {
+            "name": "cchart",
+            "color": "hsl(196, 70%, 50%)",
+            "loc": 83778
+          },
+          {
+            "name": "xAxis",
+            "color": "hsl(109, 70%, 50%)",
+            "loc": 116643
+          },
+          {
+            "name": "yAxis",
+            "color": "hsl(203, 70%, 50%)",
+            "loc": 93301
+          }
+        ]
+      },
+
+      {
+        "name": "utils",
+        "color": "hsl(169, 70%, 50%)",
+        "children": [
+          {
+            "name": "randomize",
+            "color": "hsl(331, 70%, 50%)",
+            "loc": 158582
+          },
+          {
+            "name": "resetClock",
+            "color": "hsl(279, 70%, 50%)",
+            "loc": 6034
+          },
+          {
+            "name": "noop",
+            "color": "hsl(143, 70%, 50%)",
+            "loc": 38825
+          },
+          {
+            "name": "tick",
+            "color": "hsl(192, 70%, 50%)",
+            "loc": 139796
+          },
+          {
+            "name": "forceGC",
+            "color": "hsl(186, 70%, 50%)",
+            "loc": 27649
+          },
+
+          {
+            "name": "dbg",
+            "color": "hsl(313, 70%, 50%)",
+            "loc": 17258
+          }
+        ]
+      },
+
+      {
+        "name": "set",
+        "color": "hsl(42, 70%, 50%)",
+        "children": [
+          {
+            "name": "clone",
+            "color": "hsl(80, 70%, 50%)",
+            "loc": 57792
+          },
+          {
+            "name": "intersect",
+            "color": "hsl(336, 70%, 50%)",
+            "loc": 192018
+          },
+          {
+            "name": "merge",
+            "color": "hsl(83, 70%, 50%)",
+            "loc": 85406
+          },
+
+          {
+            "name": "fromCSV",
+            "color": "hsl(286, 70%, 50%)",
+            "loc": 58461
+          },
+          {
+            "name": "slice",
+            "color": "hsl(261, 70%, 50%)",
+            "loc": 179430
+          },
+          {
+            "name": "append",
+            "color": "hsl(19, 70%, 50%)",
+            "loc": 137214
+          },
+          {
+            "name": "prepend",
+            "color": "hsl(113, 70%, 50%)",
+            "loc": 44223
+          }
+        ]
+      }
+    ]
+  },
+  "barChartData": [
+    {
+      "country": "AD",
+      "hot dog": 150,
+      "hot dogColor": "hsl(201, 70%, 50%)",
+      "burger": 80,
+      "burgerColor": "hsl(348, 70%, 50%)",
+      "sandwich": 134,
+      "sandwichColor": "hsl(173, 70%, 50%)",
+      "kebab": 3,
+      "kebabColor": "hsl(359, 70%, 50%)",
+      "fries": 126,
+      "friesColor": "hsl(170, 70%, 50%)",
+      "donut": 185,
+      "donutColor": "hsl(71, 70%, 50%)"
+    },
+    {
+      "country": "AE",
+      "hot dog": 75,
+      "hot dogColor": "hsl(170, 70%, 50%)",
+      "burger": 102,
+      "burgerColor": "hsl(177, 70%, 50%)",
+      "sandwich": 73,
+      "sandwichColor": "hsl(215, 70%, 50%)",
+      "kebab": 194,
+      "kebabColor": "hsl(32, 70%, 50%)",
+      "fries": 52,
+      "friesColor": "hsl(165, 70%, 50%)",
+      "donut": 169,
+      "donutColor": "hsl(280, 70%, 50%)"
+    },
+    {
+      "country": "AF",
+      "hot dog": 141,
+      "hot dogColor": "hsl(71, 70%, 50%)",
+      "burger": 67,
+      "burgerColor": "hsl(212, 70%, 50%)",
+      "sandwich": 121,
+      "sandwichColor": "hsl(214, 70%, 50%)",
+      "kebab": 163,
+      "kebabColor": "hsl(194, 70%, 50%)",
+      "fries": 57,
+      "friesColor": "hsl(270, 70%, 50%)",
+      "donut": 84,
+      "donutColor": "hsl(115, 70%, 50%)"
+    },
+    {
+      "country": "AG",
+      "hot dog": 51,
+      "hot dogColor": "hsl(53, 70%, 50%)",
+      "burger": 93,
+      "burgerColor": "hsl(41, 70%, 50%)",
+      "sandwich": 47,
+      "sandwichColor": "hsl(249, 70%, 50%)",
+      "kebab": 86,
+      "kebabColor": "hsl(100, 70%, 50%)",
+      "fries": 194,
+      "friesColor": "hsl(228, 70%, 50%)",
+      "donut": 116,
+      "donutColor": "hsl(83, 70%, 50%)"
+    },
+    {
+      "country": "AI",
+      "hot dog": 10,
+      "hot dogColor": "hsl(278, 70%, 50%)",
+      "burger": 70,
+      "burgerColor": "hsl(216, 70%, 50%)",
+      "sandwich": 45,
+      "sandwichColor": "hsl(336, 70%, 50%)",
+      "kebab": 57,
+      "kebabColor": "hsl(246, 70%, 50%)",
+      "fries": 78,
+      "friesColor": "hsl(299, 70%, 50%)",
+      "donut": 105,
+      "donutColor": "hsl(243, 70%, 50%)"
+    }
+  ]
 }
