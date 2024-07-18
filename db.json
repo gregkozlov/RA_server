@@ -737,5 +737,10 @@
       "donut": 105,
       "donutColor": "hsl(243, 70%, 50%)"
     }
+  ],
+  "turnoverTableData": [
+    { "companyName": "Alublech AG", "turnover": 159, "jobs": 6, "price": 24, "lastKm": 4 },
+    { "companyName": "Baustasen GmbH", "turnover": 237, "jobs": 9, "price": 37, "lastKm": 4.3 },
+    { "companyName": "DB Cargo AG", "turnover": 262, "jobs": 16, "price": 24, "lastKm": 6 }
   ]
 }
