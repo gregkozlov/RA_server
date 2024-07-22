@@ -661,86 +661,84 @@
       }
     ]
   },
-  "barChartData": [
-    {
-      "country": "AD",
-      "pickup truck": 150,
-      "pickupColor": "hsl(201, 70%, 50%)",
-      "box truck": 80,
-      "boxColor": "hsl(348, 70%, 50%)",
-      "flatbed truck": 134,
-      "flatbedColor": "hsl(173, 70%, 50%)",
-      "dump truck": 3,
-      "dumpColor": "hsl(359, 70%, 50%)",
-      "tanker truck": 126,
-      "tankerColor": "hsl(170, 70%, 50%)",
-      "tow truck": 185,
-      "towColor": "hsl(71, 70%, 50%)"
-    },
-    {
-      "country": "AE",
-      "pickup truck": 75,
-      "pickupColor": "hsl(170, 70%, 50%)",
-      "box truck": 102,
-      "boxColor": "hsl(177, 70%, 50%)",
-      "flatbed truck": 73,
-      "flatbedColor": "hsl(215, 70%, 50%)",
-      "dump truck": 194,
-      "dumpColor": "hsl(32, 70%, 50%)",
-      "tanker truck": 52,
-      "tankerColor": "hsl(165, 70%, 50%)",
-      "tow truck": 169,
-      "towColor": "hsl(280, 70%, 50%)"
-    },
-    {
-      "country": "AF",
-      "pickup truck": 141,
-      "pickupColor": "hsl(71, 70%, 50%)",
-      "box truck": 67,
-      "boxColor": "hsl(212, 70%, 50%)",
-      "flatbed truck": 121,
-      "flatbedColor": "hsl(214, 70%, 50%)",
-      "dump truck": 163,
-      "dumpColor": "hsl(194, 70%, 50%)",
-      "tanker truck": 57,
-      "tankerColor": "hsl(270, 70%, 50%)",
-      "tow truck": 84,
-      "towColor": "hsl(115, 70%, 50%)"
-    },
-    {
-      "country": "AG",
-      "pickup truck": 51,
-      "pickupColor": "hsl(53, 70%, 50%)",
-      "box truck": 93,
-      "boxColor": "hsl(41, 70%, 50%)",
-      "flatbed truck": 47,
-      "flatbedColor": "hsl(249, 70%, 50%)",
-      "dump truck": 86,
-      "dumpColor": "hsl(100, 70%, 50%)",
-      "tanker truck": 194,
-      "tankerColor": "hsl(228, 70%, 50%)",
-      "tow truck": 116,
-      "towColor": "hsl(83, 70%, 50%)"
-    },
-    {
-      "country": "AI",
-      "pickup truck": 10,
-      "pickupColor": "hsl(278, 70%, 50%)",
-      "box truck": 70,
-      "boxColor": "hsl(216, 70%, 50%)",
-      "flatbed truck": 45,
-      "flatbedColor": "hsl(336, 70%, 50%)",
-      "dump truck": 57,
-      "dumpColor": "hsl(246, 70%, 50%)",
-      "tanker truck": 78,
-      "tankerColor": "hsl(299, 70%, 50%)",
-      "tow truck": 105,
-      "towColor": "hsl(243, 70%, 50%)"
-    }
-  ],
+
   "turnoverTableData": [
     { "companyName": "Alublech AG", "turnover": 159, "jobs": 6, "price": 24, "lastKm": 4 },
     { "companyName": "Baustasen GmbH", "turnover": 237, "jobs": 9, "price": 37, "lastKm": 4.3 },
     { "companyName": "DB Cargo AG", "turnover": 262, "jobs": 16, "price": 24, "lastKm": 6 }
+  ],
+
+  "costAndTurnoverBarChartData": [
+    {
+      "country": "EU",
+      "engine": 168,
+      "transmission": 23,
+      "brakes": 31,
+      "suspension": 72,
+      "tires": 96,
+      "battery": 157
+    },
+    {
+      "country": "US",
+      "engine": 78,
+      "transmission": 94,
+      "brakes": -192,
+      "suspension": 21,
+      "tires": 120,
+      "battery": -72
+    },
+    {
+      "country": "EN",
+      "engine": 180,
+      "transmission": 151,
+      "brakes": 55,
+      "suspension": 100,
+      "tires": 19,
+      "battery": 117
+    },
+    {
+      "country": "AU",
+      "engine": 46,
+      "transmission": -55,
+      "brakes": 170,
+      "suspension": 80,
+      "tires": 18,
+      "battery": -151
+    }
+  ],
+
+  "productivityBarChartData": [
+    {
+      "country": "EU",
+      "pickup truck": 150,
+      "box truck": 80,
+      "flatbed truck": 134,
+      "dump truck": 33,
+      "tanker truck": 126
+    },
+    {
+      "country": "US",
+      "pickup truck": 75,
+      "box truck": 102,
+      "flatbed truck": 73,
+      "dump truck": 194,
+      "tanker truck": 52
+    },
+    {
+      "country": "EN",
+      "pickup truck": 141,
+      "box truck": 67,
+      "flatbed truck": 121,
+      "dump truck": 163,
+      "tanker truck": 57
+    },
+    {
+      "country": "AU",
+      "pickup truck": 15,
+      "box truck": 22,
+      "flatbed truck": 21,
+      "dump truck": 88,
+      "tanker truck": 67
+    }
   ]
 }
