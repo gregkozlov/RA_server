@@ -512,5 +512,233 @@
       },
       "required": ["tenantId", "visualizationMethod"]
     }
+  ],
+  "fuelConsumptionChartData": [
+    {
+      "id": "fuel consumption",
+      "color": "hsl(164, 70%, 50%)",
+      "data": [
+        {
+          "x": "1 Jan",
+          "y": 22
+        },
+        {
+          "x": "3 Jan",
+          "y": 28
+        },
+        {
+          "x": "5 Jan",
+          "y": 32
+        },
+        {
+          "x": "7 Jan",
+          "y": 29
+        },
+        {
+          "x": "9 Jan",
+          "y": 18
+        },
+        {
+          "x": "11 Jan",
+          "y": 35
+        },
+        {
+          "x": "13 Jan",
+          "y": 33
+        },
+        {
+          "x": "15 Jan",
+          "y": 25
+        }
+      ]
+    }
+  ],
+  "treemapChartData": {
+    "name": "treemap",
+    "color": "hsl(83, 70%, 50%)",
+    "children": [
+      {
+        "name": "stack",
+        "color": "hsl(119, 70%, 50%)",
+        "children": [
+          {
+            "name": "cchart",
+            "color": "hsl(196, 70%, 50%)",
+            "loc": 83778
+          },
+          {
+            "name": "xAxis",
+            "color": "hsl(109, 70%, 50%)",
+            "loc": 116643
+          },
+          {
+            "name": "yAxis",
+            "color": "hsl(203, 70%, 50%)",
+            "loc": 93301
+          }
+        ]
+      },
+
+      {
+        "name": "utils",
+        "color": "hsl(169, 70%, 50%)",
+        "children": [
+          {
+            "name": "randomize",
+            "color": "hsl(331, 70%, 50%)",
+            "loc": 158582
+          },
+          {
+            "name": "resetClock",
+            "color": "hsl(279, 70%, 50%)",
+            "loc": 6034
+          },
+          {
+            "name": "noop",
+            "color": "hsl(143, 70%, 50%)",
+            "loc": 38825
+          },
+          {
+            "name": "tick",
+            "color": "hsl(192, 70%, 50%)",
+            "loc": 139796
+          },
+          {
+            "name": "forceGC",
+            "color": "hsl(186, 70%, 50%)",
+            "loc": 27649
+          },
+
+          {
+            "name": "dbg",
+            "color": "hsl(313, 70%, 50%)",
+            "loc": 17258
+          }
+        ]
+      },
+
+      {
+        "name": "set",
+        "color": "hsl(42, 70%, 50%)",
+        "children": [
+          {
+            "name": "clone",
+            "color": "hsl(80, 70%, 50%)",
+            "loc": 57792
+          },
+          {
+            "name": "intersect",
+            "color": "hsl(336, 70%, 50%)",
+            "loc": 192018
+          },
+          {
+            "name": "merge",
+            "color": "hsl(83, 70%, 50%)",
+            "loc": 85406
+          },
+
+          {
+            "name": "fromCSV",
+            "color": "hsl(286, 70%, 50%)",
+            "loc": 58461
+          },
+          {
+            "name": "slice",
+            "color": "hsl(261, 70%, 50%)",
+            "loc": 179430
+          },
+          {
+            "name": "append",
+            "color": "hsl(19, 70%, 50%)",
+            "loc": 137214
+          },
+          {
+            "name": "prepend",
+            "color": "hsl(113, 70%, 50%)",
+            "loc": 44223
+          }
+        ]
+      }
+    ]
+  },
+
+  "turnoverTableData": [
+    { "companyName": "Alublech AG", "turnover": 159, "jobs": 6, "price": 24, "lastKm": 4 },
+    { "companyName": "Baustasen GmbH", "turnover": 237, "jobs": 9, "price": 37, "lastKm": 4.3 },
+    { "companyName": "DB Cargo AG", "turnover": 262, "jobs": 16, "price": 24, "lastKm": 6 }
+  ],
+
+  "costAndTurnoverBarChartData": [
+    {
+      "country": "EU",
+      "engine": 168,
+      "transmission": 23,
+      "brakes": 31,
+      "suspension": 72,
+      "tires": 96,
+      "battery": 157
+    },
+    {
+      "country": "US",
+      "engine": 78,
+      "transmission": 94,
+      "brakes": -192,
+      "suspension": 21,
+      "tires": 120,
+      "battery": -72
+    },
+    {
+      "country": "EN",
+      "engine": 180,
+      "transmission": 151,
+      "brakes": 55,
+      "suspension": 100,
+      "tires": 19,
+      "battery": 117
+    },
+    {
+      "country": "AU",
+      "engine": 46,
+      "transmission": -55,
+      "brakes": 170,
+      "suspension": 80,
+      "tires": 18,
+      "battery": -151
+    }
+  ],
+
+  "productivityBarChartData": [
+    {
+      "country": "EU",
+      "pickup truck": 150,
+      "box truck": 80,
+      "flatbed truck": 134,
+      "dump truck": 33,
+      "tanker truck": 126
+    },
+    {
+      "country": "US",
+      "pickup truck": 75,
+      "box truck": 102,
+      "flatbed truck": 73,
+      "dump truck": 194,
+      "tanker truck": 52
+    },
+    {
+      "country": "EN",
+      "pickup truck": 141,
+      "box truck": 67,
+      "flatbed truck": 121,
+      "dump truck": 163,
+      "tanker truck": 57
+    },
+    {
+      "country": "AU",
+      "pickup truck": 15,
+      "box truck": 22,
+      "flatbed truck": 21,
+      "dump truck": 88,
+      "tanker truck": 67
+    }
   ]
 }

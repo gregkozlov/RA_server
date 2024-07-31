@@ -663,9 +663,30 @@
   },
 
   "turnoverTableData": [
-    { "companyName": "Alublech AG", "turnover": 159, "jobs": 6, "price": 24, "lastKm": 4 },
-    { "companyName": "Baustasen GmbH", "turnover": 237, "jobs": 9, "price": 37, "lastKm": 4.3 },
-    { "companyName": "DB Cargo AG", "turnover": 262, "jobs": 16, "price": 24, "lastKm": 6 }
+    {
+      "companyName": "Alublech AG",
+      "turnover": 159,
+      "jobs": 6,
+      "price": 24,
+      "lastKm": 4,
+      "timestamp": "2024-05-04T08:00:00Z"
+    },
+    {
+      "companyName": "Baustasen GmbH",
+      "turnover": 237,
+      "jobs": 9,
+      "price": 37,
+      "lastKm": 4.3,
+      "timestamp": "2024-05-14T12:30:00Z"
+    },
+    {
+      "companyName": "DB Cargo AG",
+      "turnover": 262,
+      "jobs": 16,
+      "price": 24,
+      "lastKm": 6,
+      "timestamp": "2024-05-24T15:45:00Z"
+    }
   ],
 
   "costAndTurnoverBarChartData": [
@@ -676,7 +697,8 @@
       "brakes": 31,
       "suspension": 72,
       "tires": 96,
-      "battery": 157
+      "battery": 157,
+      "timestamp": "2024-05-05T10:15:00Z"
     },
     {
       "country": "US",
@@ -685,7 +707,8 @@
       "brakes": -192,
       "suspension": 21,
       "tires": 120,
-      "battery": -72
+      "battery": -72,
+      "timestamp": "2024-05-12T14:45:00Z"
     },
     {
       "country": "EN",
@@ -694,7 +717,8 @@
       "brakes": 55,
       "suspension": 100,
       "tires": 19,
-      "battery": 117
+      "battery": 117,
+      "timestamp": "2024-05-19T08:30:00Z"
     },
     {
       "country": "AU",
@@ -703,7 +727,8 @@
       "brakes": 170,
       "suspension": 80,
       "tires": 18,
-      "battery": -151
+      "battery": -151,
+      "timestamp": "2024-05-26T16:00:00Z"
     }
   ],
 
@@ -714,7 +739,8 @@
       "box truck": 80,
       "flatbed truck": 134,
       "dump truck": 33,
-      "tanker truck": 126
+      "tanker truck": 126,
+      "timestamp": "2024-05-02T09:20:00Z"
     },
     {
       "country": "US",
@@ -722,7 +748,8 @@
       "box truck": 102,
       "flatbed truck": 73,
       "dump truck": 194,
-      "tanker truck": 52
+      "tanker truck": 52,
+      "timestamp": "2024-05-10T13:50:00Z"
     },
     {
       "country": "EN",
@@ -730,7 +757,8 @@
       "box truck": 67,
       "flatbed truck": 121,
       "dump truck": 163,
-      "tanker truck": 57
+      "tanker truck": 57,
+      "timestamp": "2024-05-18T11:10:00Z"
     },
     {
       "country": "AU",
@@ -738,7 +766,8 @@
       "box truck": 22,
       "flatbed truck": 21,
       "dump truck": 88,
-      "tanker truck": 67
+      "tanker truck": 67,
+      "timestamp": "2024-05-25T17:45:00Z"
     }
   ]
 }
