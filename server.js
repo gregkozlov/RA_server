@@ -5,33 +5,36 @@ const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
+server.use(express.json()); // Add this middleware to parse JSON bodies
 server.use((req, res, next) => {
   setTimeout(next, 500);
 });
 
-// Custom route to handle date filtering
-server.get("/costAndTurnoverBarChartData", (req, res) => {
-  const startDate = new Date(req.query.startDate);
-  const endDate = new Date(req.query.endDate);
+// Custom route to handle date filtering for Cost and Turnover data
+server.post("/costAndTurnoverBarChartData", (req, res) => {
+  const { startDate, endDate } = req.body;
+  const start = new Date(startDate);
+  const end = new Date(endDate);
   const data = router.db
     .get("costAndTurnoverBarChartData")
     .filter(item => {
       const itemDate = new Date(item.timestamp);
-      return itemDate >= startDate && itemDate <= endDate;
+      return itemDate >= start && itemDate <= end;
     })
     .value();
   res.json(data);
 });
 
-// Custom route to handle date filtering
-server.get("/productivityBarChartData", (req, res) => {
-  const startDate = new Date(req.query.startDate);
-  const endDate = new Date(req.query.endDate);
+// Custom route to handle date filtering for Productivity data
+server.post("/productivityBarChartData", (req, res) => {
+  const { startDate, endDate } = req.body;
+  const start = new Date(startDate);
+  const end = new Date(endDate);
   const data = router.db
     .get("productivityBarChartData")
     .filter(item => {
       const itemDate = new Date(item.timestamp);
-      return itemDate >= startDate && itemDate <= endDate;
+      return itemDate >= start && itemDate <= end;
     })
     .value();
   res.json(data);
