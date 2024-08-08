@@ -689,7 +689,7 @@
     }
   ],
 
-  "costAndTurnoverBarChartData": [
+  "costAndTurnoverChartData": [
     {
       "country": "EU",
       "engine": 168,
@@ -732,7 +732,7 @@
     }
   ],
 
-  "productivityBarChartData": [
+  "productivityChartData": [
     {
       "country": "EU",
       "pickup truck": 150,

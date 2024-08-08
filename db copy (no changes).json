@@ -668,7 +668,7 @@
     { "companyName": "DB Cargo AG", "turnover": 262, "jobs": 16, "price": 24, "lastKm": 6 }
   ],
 
-  "costAndTurnoverBarChartData": [
+  "costAndTurnoverChartData": [
     {
       "country": "EU",
       "engine": 168,
@@ -707,7 +707,7 @@
     }
   ],
 
-  "productivityBarChartData": [
+  "productivityChartData": [
     {
       "country": "EU",
       "pickup truck": 150,

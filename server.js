@@ -11,12 +11,12 @@ server.use((req, res, next) => {
 });
 
 // Custom route to handle date filtering for Cost and Turnover data
-server.post("/costAndTurnoverBarChartData", (req, res) => {
+server.post("/costAndTurnoverChartData", (req, res) => {
   const { startDate, endDate } = req.body;
   const start = new Date(startDate);
   const end = new Date(endDate);
   const data = router.db
-    .get("costAndTurnoverBarChartData")
+    .get("costAndTurnoverChartData")
     .filter(item => {
       const itemDate = new Date(item.timestamp);
       return itemDate >= start && itemDate <= end;
@@ -26,12 +26,12 @@ server.post("/costAndTurnoverBarChartData", (req, res) => {
 });
 
 // Custom route to handle date filtering for Productivity data
-server.post("/productivityBarChartData", (req, res) => {
+server.post("/productivityChartData", (req, res) => {
   const { startDate, endDate } = req.body;
   const start = new Date(startDate);
   const end = new Date(endDate);
   const data = router.db
-    .get("productivityBarChartData")
+    .get("productivityChartData")
     .filter(item => {
       const itemDate = new Date(item.timestamp);
       return itemDate >= start && itemDate <= end;
